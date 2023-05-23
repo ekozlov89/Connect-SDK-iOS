@@ -116,8 +116,8 @@ Pod::Spec.new do |s|
     cast_version = "4.7.0"
     sp.dependency "google-cast-sdk", cast_version
     sp.framework = "GoogleCast"
-    sp.xcconfig = {
-        "FRAMEWORK_SEARCH_PATHS" => "$(PODS_ROOT)/google-cast-sdk/GoogleCastSDK-#{cast_version}-Release",
-    }
+    #sp.xcconfig = {
+    #    "FRAMEWORK_SEARCH_PATHS" => "$(PODS_ROOT)/google-cast-sdk/GoogleCastSDK-#{cast_version}-Release",
+    #}
   end
 end
